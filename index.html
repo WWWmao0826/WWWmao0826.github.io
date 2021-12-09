@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body style="text-align: center;text-size-adjust: unset;font-size: 50px;">
+		我爱霏霏！！每一分每一秒！！
+		<div id="time">
+		 
+		</div>
+		<script type="text/javascript">
+		    var add=setInterval("getTime()",1000);
+		    function getTime() {
+		        var date=new Date().toLocaleString();
+		        var id1=document.getElementById("time");
+		        id1.innerHTML=date;
+		    }
+		 
+		</script>
+	</body>
+</html>
