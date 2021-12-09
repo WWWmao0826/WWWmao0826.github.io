@@ -1,0 +1,34 @@
+.block-title{
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: center;
+	    width: 100%;
+	    box-sizing: border-box;
+	    padding: 30px 14px 20px;
+}
+.download{
+	    width: 66.7%;
+	    border: 10px solid #fff;
+	    background-color: #f8f8f9;
+}
+.fan-container{
+	display: flex;
+}
+.download img{
+	width: 100%;
+}
+.download h4{
+	    padding: 15px 10px;
+	    color: #334559;
+	    font-size: 20px;
+	    line-height: 1.15;
+		font-weight: 500;
+}
+.fans-right-container{
+	    width: 33.3%;
+	    border: 10px solid #fff;
+}
+.fans-right-container>img{
+	width: 100%;
+}
